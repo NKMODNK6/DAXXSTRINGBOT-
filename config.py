@@ -5,7 +5,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "24509589"))
 API_HASH = getenv("API_HASH", "717cf21d94c4934bcbe1eaa1ad86ae75")
-BOT_TOKEN = getenv("BOT_TOKEN", "7493562717:AAH9DGdNRk5g_kCQ6hxLR39szY-WacI8At0")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 OWNER_ID = int(getenv("OWNER_ID", "7427691214"))
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://MehraMusicbot:MehraMusicbot@mehramusicbot.idpksvs.mongodb.net/?retryWrites=true&w=majority")
 MUST_JOIN = getenv("MUST_JOIN", "Resso_music_group")
